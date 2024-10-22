@@ -185,21 +185,68 @@ gtag("config", "GT-P3FCQW69");
   </head>
 
   <body class="home page-template-default page page-id-5">
-    
+    <div id="myModal" class="modal" style="margin: auto;display: none; justify-content: center; align-items: center;">
+      <!-- Modal content -->
+      <div class="modal-content" style="background-image: url(./vifaeco/wp-content/uploads/2023/12/pexels-yosiazwan-3752402.jpg);background-size: cover;border-radius: 32px; display: flex; justify-content: end; overflow: hidden; position: relative;">
+          <div class="modal-form-box" style="background: rgba(230, 230, 230, 0.5);backdrop-filter: blur(4px); width: 50%;">
+              <button class="close" style="padding: 20px; border-radius: 0px 0px 0px 40px;background: rgba(65, 102, 38, 0.25);backdrop-filter: blur(8px);">
+                  <svg stroke="currentColor" fill="#416626" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"></path></g></svg>
+              </button>
+              <form action="#" style="padding: 60px;">
+                  <div class="row">
+                      <div class="col-25">
+                          <label for="lname">Họ và tên <span style="color: #eb1111;">*</span></label>
+                      </div>
+                      <div class="col-75">
+                          <input style="width: 100%; border-radius: 4px; padding-left: 6px; height: 40px; border: 1px solid #d9d9d9;" type="name" id="name" name="name" placeholder="Nhập họ tên của bạn..">
+                      </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px;">
+                      <div class="col-25">
+                          <label for="lname">Email <span style="color: #eb1111;">*</span></label>
+                      </div>
+                      <div class="col-75">
+                          <input style="width: 100%; border-radius: 4px; padding-left: 6px; height: 40px; border: 1px solid #d9d9d9;" type="email" id="email" name="email" placeholder="Nhập email của bạn..">
+                      </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px;">
+                      <div class="col-25">
+                          <label for="lname">Số điện thoại <span style="color: #eb1111;">*</span></label>
+                      </div>
+                      <div class="col-75">
+                          <input style="width: 100%; border-radius: 4px; padding-left: 6px; height: 40px; border: 1px solid #d9d9d9;" type="number" id="number" name="number" placeholder="Nhập số điện thoại của bạn..">
+                      </div>
+                  </div>
+                  
+                  <div class="row" style="margin-top: 20px;">
+                      <div class="col-25">
+                          <label for="subject">Nội dung <span style="color: #eb1111;">*</span></label>
+                      </div>
+                      <div class="col-75">
+                          <textarea style="width: 100%; border-radius: 4px; padding-left: 6px; height:100px; border: 1px solid #d9d9d9; padding-top: 6px;" id="note" name="note" placeholder="Gửi gì đó tới chúng tôi..."></textarea>
+                      </div>
+                  </div>
+                  <div class="row" style="margin-top: 20px;">
+                  <button class="submit-btn" type="button" value="Submit" style="padding: 8px 24px; background: #51802F; color: #ffffff; border-radius: 4px;">Gửi lời nhắn</button>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </div>
         
         <div class="site-wrapper relative default">
           <header class="site-header fixed w-screen h-auto top-0 left-0 z-[99999]">
-            <div class="site-container flex flex-row items-center justify-between relative z-[999] pb-25 pt-40 lg:pt-50 2xl:pt-86">
+            <div class="site-container flex flex-row items-center justify-between relative z-[999] pb-25 pt-20">
               <a href="./index.html" class="site-logo z-50 relative">
-                <img src="./vifaeco/wp-content/uploads/2023/12/vifaeco-logo-g.png" style="width: 220px; height: auto;">
+                <img src="./vifaeco/wp-content/uploads/2023/12/vifaeco-logo.png" style="width: 80px; height: auto;">
               </a>
 
               <nav class="site-header__navigation--desktop ml-80 2xl:ml-145 hidden lg:flex flex-row items-center gap-32">
                 <ul id="menu-header" class="site-header__menu flex flex-row items-center gap-30 xl:gap-50 text-white 2xl:gap-90" style="color: #416626;"><li id="menu-item-7" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-7"><a href="./index.html" aria-current="page">Trang chủ</a></li>
-                    <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="./products.html">Sản phẩm</a></li>
+                    <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8" style="margin-right: 0 !important;"><a href="./products.html">Sản phẩm</a></li>
                     <li id="menu-item-9" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="./about-us.html">Về chúng tôi</a></li>
                     <li id="menu-item-10" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="./news.html">Tin tức</a></li>
-                    <li id="menu-item-11" class="btn menu-item menu-item-type-custom menu-item-object-custom menu-item-11" style="background: #568B2D;"><a href="./contact.html">Liên hệ chúng tôi</a></li>
+                    <button id="myBtn" class="btn menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="#">Liên hệ chúng tôi</a></button>
                 </ul>             
              </nav>
               <div class="hamburger block lg:!hidden">
@@ -215,10 +262,10 @@ gtag("config", "GT-P3FCQW69");
               <div class="site-container">
                 <nav class="site-header__navigation--mobile">
                   <ul id="menu-header-1" class="site-header__menu-mobile flex flex-col"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-7"><a href="/" aria-current="page">Trang chủ</a></li>
-                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8"><a href="./products.html">Sản phẩm</a></li>
+                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8" style="margin-right: 0 !important;"><a href="./products.html">Sản phẩm</a></li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9"><a href="./about-us.html">Về chúng tôi</a></li>
                     <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-10"><a href="./news.html">Tin tức</a></li>
-                    <li class="btn menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="./contact.html">Liên hệ chúng tôi</a></li>
+                    <button id="myBtn" class="btn menu-item menu-item-type-custom menu-item-object-custom menu-item-11"><a href="#">Liên hệ chúng tôi</a></button>
                   </ul>                
                 </nav>
               </div>
@@ -245,110 +292,110 @@ gtag("config", "GT-P3FCQW69");
         <div class="products-carousel-container">
             <div class="products-list">
                 <div class="products-list-rows flex justify-between">
-                    <a href="https://fieldernutrition.com/product/fielder-kick-off-seed-treatment/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Seed Treatments</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón TPP 1090</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2@2x-1.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-4.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/johannes-plenio-GmBT6GQEOs0-unsplash-scaled.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/paddy-1.jpeg" alt="">
                                                         </div>
                         </div>
                     </a>
                     
-                    <a href="https://fieldernutrition.com/product/fielder-green-grass-feed/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Sports and Turf</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón Acid Humic</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2023/12/Artboard-2-copy-32@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-8.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Green-Turf-1-scaled.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/paddy-5.jpg" alt="">
                                                         </div>
                         </div>
                     </a>
                     
-                    <a href="https://fieldernutrition.com/product/kick-on-root-growth/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Biostimulants</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón G8</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2-copy-14@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-5.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Seed-Treatments-2.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/paddy-2.jpeg" alt="">
                                                         </div>
                         </div>
                     </a>
                 </div>
 
                 <div class="products-list-rows flex justify-between" style="margin-top: 40px;">
-                    <a href="https://fieldernutrition.com/product/embrace/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Crop Feeders</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón GD1900</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2-copy-11@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-1.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Images-1-36.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/paddy-4.jpg" alt="">
                                                         </div>
                         </div>
                     </a>
-                    <a href="https://fieldernutrition.com/product/amino-acid-complex-biostimulant/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Biostimulants</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón S.O.C 1900</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2-copy-40@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-3.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2023/12/Rectangle-8.png" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/paddy-2.jpeg" alt="">
                                                         </div>
                         </div>
                     </a>
-                    <a href="https://fieldernutrition.com/product/organic-feed/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Crop Feeders</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón EDTA</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2-copy-6@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-10.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/valentin-muller-bWtd1ZyEy6w-unsplash-scaled.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/pexels-yosiazwan-3752402.jpg" alt="">
                                                         </div>
                         </div>
                     </a>
                 </div>
 
                 <div class="products-list-rows flex justify-between" style="margin-top: 40px;">
-                    <a href="https://fieldernutrition.com/product/seaking/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Sports and Turf</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón G2000</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2-copy-39@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-2.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Images-1-19.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/free-photo-of-a-display-of-vegetables-and-fruits-at-a-market.jpeg" alt="">
                                                         </div>
                         </div>
                     </a>
-                    <a href="https://fieldernutrition.com/product/fielder-stress-buster-3/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Biostimulants</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón NPK Hàn Việt</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2-copy-21@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-9.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Bacteria-Biologicals-scaled.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/farm-products.jpg" alt="">
                                                         </div>
                         </div>
                     </a>
-                    <a href="https://fieldernutrition.com/product/seaking/" class="single-product">
+                    <a href="./products-details.html" class="single-product">
                         <div class="left-column relative bg-white h-auto aspect-[499/684] rounded-[37px]" style="width: 360px; height: auto;">
-                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Sports and Turf</div>
+                                                        <div class="pill absolute left-20 sm:left-35 top-20 sm:top-31 z-10 xl:!text-16 xl:!py-21">Phân bón Beta-Glucan 50</div>
                             
-                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Artboard-2-copy-39@2x.png" alt="">
+                            <img decoding="async" class="max-w-[60%] !h-auto aspect-[261/337] object-contain left-1/2 top-[57%] -translate-x-1/2 -translate-y-1/2 absolute z-10" src="./vifaeco/wp-content/uploads/2023/12/product-7.png" alt="">
     
                             <div class="background-picture pic-container !absolute w-full h-full opacity-0">
-                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="https://fieldernutrition.com/wp-content/uploads/2024/01/Images-1-19.jpg" alt="">
+                                                                <img decoding="async" class="absolute w-full h-full rounded-[37px]" src="./vifaeco/wp-content/uploads/2023/12/paddy-4.jpg" alt="">
                                                         </div>
                         </div>
                     </a>
@@ -368,53 +415,126 @@ gtag("config", "GT-P3FCQW69");
     </div>
 </section>
 
-      <footer class="site-footer text-white bg-cover bg-bottom z-10 relative" style="background-image: url(https://fieldernutrition.com/wp-content/uploads/2024/01/PEARCE-SEEDS.jpg);padding-bottom: 32px;">
-
+<footer class="site-footer text-white bg-cover bg-bottom z-10 relative" style="padding-bottom:32px; background-image: url(./vifaeco/wp-content/uploads/2023/12/footer-bg.jpg)">
         
-        <div class="site-container pt-64 sm:pt-100 lg:pt-100 pb-36">
-          <div class="flex flex-col sm:flex-row justify-between gap-40 sm:gap-50">
-            <div class="left-column flex flex-col-reverse sm:flex-col justify-between gap-35 sm:gap-100 xl:gap-130 2xl:gap-192">
-              <h2 class="max-w-[433px] sm">Nông nghiệp xanh <br>
-                Việt Nam</h2>
+  <div class="site-container pt-54 sm:pt-60 lg:pt-80 pb-36">
+    <div class="flex flex-col sm:flex-row justify-between gap-40 sm:gap-50">
+      <div class="left-column flex flex-col-reverse sm:flex-col justify-between gap-28 sm:gap-64 xl:gap-80 2xl:gap-100">
+        <h2 class="max-w-[433px] sm">Nông nghiệp xanh <br>
+          Việt Nam</h2>
+        <img src="./vifaeco/wp-content/uploads/2023/12/vifaeco-logo-w.png" style="width: 80px; height: auto">
+      </div>
 
-              <img src="./vifaeco/wp-content/uploads/2023/12/vifaeco-logo-w.png" style="width: 230px; height: auto">
-            </div>
-
-            <div class="right-column flex flex-col justify-between gap-30 self-stretch sm:text-right">
-              <div class="copy">
-                <h5>Thông tin liên hệ</h5>
-                <p><a href="mailto:robert@fieldernutrion.com">robert@vifaeco.com</a></p>
-                <p><a href="tel:01743 860924">0938.888.888 &#8211; Hùng</a></p>
-                <p>0938.836.887 &#8211; Tâm</p>
-              </div>
-
-              <div class="social-media flex flex-row items-center gap-32 sm:justify-end">
-
-                  <a href="https://web.telegram.org/" target="_blank">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="34.653" width="34.653" xmlns="http://www.w3.org/2000/svg"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path></svg>
-                  </a>
-
-                  
-                  <a href="https://www.facebook.com/" target="">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="34.653" width="34.653" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
-                  </a>
-
-                </div>
-            </div>
-          </div>
+      <div class="right-column flex flex-col justify-between gap-30 self-stretch sm:text-right">
+        <div class="copy">
+          <h5 style="font-weight: 600;">Thông tin liên hệ</h5>
+          <p style="margin-bottom: 16px !important;"><a href="mailto:robert@fieldernutrion.com">robert@vifaeco.com</a></p>
+          <p style="margin-bottom: 16px !important;"><a href="tel:01743 860924">0938.888.888 &#8211; Hùng</a></p>
+          <p>0938.836.887 &#8211; Tâm</p>
         </div>
 
-        <div class="site-container border-t-[0.5px] border-white border-solid pt-25 sm:pt-33 flex flex-col sm:flex-row justify-end sm:items-center text-17 gap-10 md:gap-20">
-          
+        <div class="social-media flex flex-row items-center sm:justify-end">
+
+            <a href="https://web.telegram.org/" target="_blank">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512" height="34.653" width="34.653" xmlns="http://www.w3.org/2000/svg"><path d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"></path></svg>
+            </a>
+
             
-    <a href='/privacy-policy' target='_self'>Chính sách quyền riêng tư</a>
+            <a href="https://www.facebook.com/" target="" style="margin-left: 24px;">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="34.653" width="34.653" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
+            </a>
+
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-container border-t-[0.5px] border-white border-solid pt-25 sm:pt-33 flex flex-col sm:flex-row justify-end sm:items-center text-17 gap-10 md:gap-20">
+    
+      
+<a href='/privacy-policy' target='_self'>Chính sách quyền riêng tư</a>
 </div>
-      </footer>
+</footer>
       </main>
     </div>
 
-    <style>
-        .pagination-product a {
+    <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "flex";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+  </script>
+
+  <style>
+      /* The Modal (background) */
+      .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 999999;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+      backdrop-filter: blur(8px);
+      }
+      
+      /* Modal Content */
+      .modal-content {
+      background-color: #fefefe;
+      margin: auto;
+      width: 70%;
+      }
+      
+      /* The Close Button */
+      .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+      }
+
+      .submit-btn {
+          transition: all 0.3s ease;
+      }
+
+      .submit-btn:hover {
+          background: rgba(81, 128, 47, 0.6) !important;
+      }
+
+      .row label {
+          outline: none;
+      }
+
+      .pagination-product a {
         color: black;
         float: left;
         padding: 8px 16px;
@@ -444,7 +564,7 @@ gtag("config", "GT-P3FCQW69");
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         }
-    </style>
+  </style>
     <script type="text/javascript">
 /* <![CDATA[ */
 window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/fieldernutrition.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.2"}};
